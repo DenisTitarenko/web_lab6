@@ -1,0 +1,31 @@
+.contacts {
+    margin: 30px;
+    padding: 40px;
+    width: 90%;
+    background-color: #c8c8a9;
+    border-radius: 10px;
+    color: black;
+}
+
+.contacts-label {
+    height: 100px;
+    font-size: 40px;
+    padding-left: 1rem;
+    animation: move-contacts 3s infinite ease;
+}
+
+.contacts-label:hover {
+    color: #00bc8c;
+    transition: .5s;
+}
+
+.contacts-info li {
+    font-size: 18px;
+    list-style: none;
+}
+
+@keyframes move-contacts {
+    0% {transform: translateX(30%) translateY(0%);}
+    50% {transform: translateX(40%) translateY(20%)}
+    100% {transform: translateX(30%) translateY(0%)}
+}

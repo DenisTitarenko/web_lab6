@@ -1,0 +1,26 @@
+.images-div {
+    margin: 30px;
+    width: 20%;
+    padding: 20px;
+    background-color: #c8c8a9;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.sponsor {
+    margin: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.images-div li {
+    list-style-type: none;
+    transition: .3s;
+}
+
+.images-div li:hover {
+    transition: .3s;
+    transform: rotate3d(40, 10, 10, 35deg);
+}

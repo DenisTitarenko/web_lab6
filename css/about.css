@@ -1,0 +1,29 @@
+.about-us {
+    margin: 30px;
+    padding: 40px;
+    width: 90%;
+    background-color: #c8c8a9;
+    border-radius: 10px;
+    color: black;
+}
+
+p {
+    font-size: 22px;
+}
+
+.about-us-label {
+    font-size: 40px;
+    padding-left: 1rem;
+    animation: move-about-us 3s infinite ease;
+}
+
+.about-us-label:hover {
+    color: #00bc8c;
+    transition: .5s;
+}
+
+@keyframes move-about-us {
+    0% {transform: translateX(30%)}
+    50% {transform: translateX(50%)}
+    100% {transform: translateX(30%)}
+}
